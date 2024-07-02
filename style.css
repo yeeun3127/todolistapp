@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-image: url("images/watercolor-4117017_1280.png");
+    background-size: cover;
+}
+
+.container {
+    background-color: white; opacity : 0.9;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.task-area {
+    border: 1px solid silver;
+}
+
+.task-tabs {
+    display: flex;
+    border-bottom: 1px solid silver;
+    position: relative;
+}
+
+.task-tabs div {
+    padding: 1em;
+}
+
+#under-line {
+    height: 4px;
+    background-color: #e685b5;
+    position: absolute;
+    width: 70px;
+    left: 0px;
+    top: 52px;
+    padding: 0px;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#task-input, select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type=submit] {
+    width: 90%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+button {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button:hover{
+    background-color: #45a049;
+}
